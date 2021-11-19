@@ -1,0 +1,33 @@
+.backImage{
+    width: 1350px;
+    height: 400px;
+    z-index: 8;
+}
+
+.proImage{
+    width: 320px;
+    height: 300px;
+    z-index: 9;
+    border-top-style: groove;
+    border-bottom-style: groove;
+    border-color: black;
+    border-radius: 15px;
+}
+
+.proImage:hover{
+    border-left-style: groove;
+    border-right-style: groove;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-color: #222222;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 340ps;
+    height: 250ps;
+}
+
+.details{
+    position: absolute;
+    left: 500px;
+    top: 600px;
+}

